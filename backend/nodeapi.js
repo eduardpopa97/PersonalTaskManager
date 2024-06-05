@@ -9,8 +9,7 @@ const cors = require('cors');
 const port = 8080;
 
 const postRoutes = require('./routes/post');
-const MONGO_URI = "mongodb+srv://eduardpopa:11Iunie1997@nodeapi.yxdju1h.mongodb.net/" + 
-    "?retryWrites=true&w=majority&appName=NodeAPI";
+const MONGO_URI = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
 mongoose.connect(MONGO_URI).then(() => console.log('DB connnected'));
 
