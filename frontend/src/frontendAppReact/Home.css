@@ -1,0 +1,12 @@
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+}
+
+.home {
+    margin: 80px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}

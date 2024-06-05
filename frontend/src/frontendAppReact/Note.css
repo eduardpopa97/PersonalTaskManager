@@ -1,0 +1,40 @@
+.product-main {
+    padding: 10px;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 5px #cccc;
+}
+
+.card > img {
+    align-items: center; 
+    width: 50%;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card > h4 {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.card > p {
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px #cccc;
+}
+
+.link-url {
+    text-decoration: none;
+    color: blue;
+}
